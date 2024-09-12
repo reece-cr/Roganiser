@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roganiser", "Roganiser\Roganiser.csproj", "{0DD732C8-A132-4836-A7A5-E0409C305BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD732C8-A132-4836-A7A5-E0409C305BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD732C8-A132-4836-A7A5-E0409C305BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD732C8-A132-4836-A7A5-E0409C305BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD732C8-A132-4836-A7A5-E0409C305BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {561AF03A-31B5-4D11-A8AD-E15034FC7A30}
+	EndGlobalSection
+EndGlobal
