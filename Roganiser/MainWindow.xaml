@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Roganiser"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Rorganiser" Height="auto" Width="auto" MinHeight="450" MinWidth="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" MinWidth="200"/>
+            <ColumnDefinition Width="12*" />
+        </Grid.ColumnDefinitions>
+        
+        <!-- side panel-->
+        <Border BorderBrush="DarkGray" BorderThickness="0,0,1,0">
+            <StackPanel Grid.Column="0" Background="Black">
+            
+            
+            </StackPanel>
+        </Border>
+        <!--main view -->
+        <Frame Grid.Column="1" Background="Black" Content="{Binding CurrentView}" />
     </Grid>
 </Window>
